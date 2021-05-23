@@ -4,7 +4,7 @@ Punky Night is a web game
 # How to play
 
 Open the Punky_Night.html with a browser
-and use arrow the action keys to play.
+and use the action keys to play.
 
 # Action Keys
 Arrow Keys + V + b
