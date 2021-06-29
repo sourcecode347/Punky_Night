@@ -9,9 +9,7 @@ and use the action keys to play.
 # Action Keys
 Arrow Keys + V + b
 
-# Demo Video & Youtube Channel
-
-    https://www.youtube.com/watch?v=eqr9LAtBuD8
+# Youtube Channel
 
     https://www.youtube.com/c/sourcecode347
 
