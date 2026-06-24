@@ -123,7 +123,7 @@ https://www.youtube.com/c/sourcecode347
 			<p1 id='score' style='display:inline;'></p1>
 		</div>
 		<a href='index.php' style='text-decoration:none;' ><img src='update.jpg' style='width:60px;height:60px;position:fixed;right:5px;top:10px;z-index:22;'/></a>
-		<a href='rank.php' style='text-decoration:none;' ><img src='rank.png' style='width:60px;height:60px;position:fixed;left:25px;top:10px;z-index:22;'/></a>
+		<!--a href='rank.php' style='text-decoration:none;' ><img src='rank.png' style='width:60px;height:60px;position:fixed;left:25px;top:10px;z-index:22;'/></a-->
 		<img id='up' src='down.png' onpointerdown='mouseup();' style='width:120px;height:120px;position:fixed;right:5px;bottom:135px;transform:rotate(180deg);opacity:0.75;z-index:20;'/>
 		<img id='left' src='down.png' onpointerdown='mouseleft();' onpointerup='mouseleftstop();' style='width:120px;height:120px;position:fixed;left:25px;bottom:10px;transform:rotate(90deg);opacity:0.75;z-index:20;'/>
 		<img id='right' src='down.png' onpointerdown='mouseright();' onpointerup='mouserightstop();' style='width:120px;height:120px;position:fixed;left:150px;bottom:10px;transform:rotate(-90deg);opacity:0.75;z-index:20;'/>
@@ -1180,7 +1180,7 @@ https://www.youtube.com/c/sourcecode347
 				stoplose=true;
 				var c = document.createElement("DIV");
 				c.style='background-color:#00ff00;border:4px #262626 solid;position:fixed;width:80%;height:80%;top:10%;left:10%;z-index:21;';
-				c.innerHTML="<center><p5>Your Score</p5><br><p6>"+score+"</p6><br><p6>You Have Not Good Rank</p6><br><a href='Punky_Night.html' style='text-decoration:none;'><p5>Play Again</p5></a><br></center>";
+				c.innerHTML="<center><p5>Your Score</p5><br><p6>"+score+"</p6><br><!--p6>You Have Not Good Rank</p6--><br><a href='Punky_Night.html' style='text-decoration:none;'><p5>Play Again</p5></a><br></center>";
 				pg.appendChild(c);
 				/*			
 				var ucmnt = $.ajax({
